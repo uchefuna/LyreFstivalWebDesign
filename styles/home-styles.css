@@ -1,0 +1,237 @@
+.heropic {
+  border-top: 2px solid #d49d26;
+  width: 100%;
+  height: 300px;
+}
+
+.submain {
+  display: flex;
+}
+
+.sideleft, .sideright {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #39ac0bee;
+  border: 2px solid hsl(9, 100%, 70%);
+  padding: 0.4%;
+}
+
+.sideleft>div, .sideright>div {
+  flex: 100%;
+  border: 2px solid #f1ebec;
+  border-radius: 8px;
+  height: 25%;
+}
+
+.sideleft {
+  order: 1;
+}
+
+.sideright {
+  order: 3;
+}
+
+.buyticket {
+  padding: 2%;
+  background-color: hsla(266, 64%, 28%, 0.933);
+  color: rgb(255, 255, 255);
+}
+
+.buyticket h3 {
+  margin: 5px 0 25px;
+  font-size: 150%;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  color: #e47c06;
+}
+
+.buyticket .freeticket {
+  margin: 0 0 10px 5px;
+  color: #f7eeee;
+}
+
+.buyticket #qty3, #qty5, #qty7, #qty10, #qty20 {
+  margin-bottom: 15px;
+  background-color: #f1f3f3fd;
+}
+
+.buyticket p {
+  margin: 0 0 15px 10px;
+}
+
+.buyticket a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 60%;
+  margin: 0 0 50px 10px;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 1.6em;
+  color: #f7f4f4;
+  box-shadow: 1px 1px 2px 2px #39ee0c;
+  outline: none;
+  cursor: pointer;
+}
+
+.buyticket a:hover {
+  box-shadow: 0 2px #eca82a;
+  transform: translateY(5px);
+  outline: none;
+  border: none;
+}
+
+.celebratepix {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.foodstand, .mapframe {
+  text-align: center;
+  padding-bottom: 15px;
+  background-color: hsla(39, 70%, 52%, 0.933);
+}
+
+.foodstand img, .mapframe iframe {
+  width: 100%;
+  height: 85%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 2px solid #d49d26;
+}
+
+.foodstand p, .mapframe p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  margin: auto;
+  width: 96%;
+  text-align: justify;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+.foodstand a, .mapframe a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #0206f1;
+  text-decoration: none;
+}
+
+.contactdetails {
+  background-color: hsla(197, 83%, 19%, 0.933);
+  color: rgba(255, 255, 255, 0.993);
+  height: 100%;
+  padding: 2%;
+  font-size: 120%;
+}
+
+.contactdetails #fname, #lname, #email {
+  width: 90%;
+  height: 25px;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  background-color: hsl(0, 15%, 80%);
+}
+
+.contactdetails label, h4 {
+  margin-left: 5px;
+}
+
+.contactdetails h4 {
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.contactdetails #detailssm {
+  margin: 18px 0 50px;
+  border-radius: 10px;
+  padding: 1%;
+  font-size: 1.6em;
+  box-shadow: 1px 1px 2px 2px #eca82a;
+  outline: none;
+  cursor: pointer;
+}
+
+.contactdetails #detailssm:hover {
+  box-shadow: 0 2px #39ee0c;
+  transform: translateY(5px);
+  outline: none;
+  border: none;
+}
+
+.centercontent {
+  flex: 2;
+  order: 2;
+  background-color: #190c5fe7;
+  border: 2px solid #ff6347;
+  text-align: center;
+  color: #f3f1f1;
+  padding: 1% 5% 5%;
+  height: auto;
+}
+
+.centercontent h1 {
+  font-size: 2.7em;
+  color: #d9d6ebe7;
+  text-shadow: 1px 1px 5px #000000, 0 0 30px #da990bec, 0 0 15px #764105e5;
+}
+
+.georgemichael, .davidbowie, .edsheeran {
+  margin-top: 50px;
+}
+
+.georgemichael img, .davidbowie img, .edsheeran img {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px #525150;
+  outline: none;
+}
+
+.georgemichael p, .davidbowie p, .edsheeran p {
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  width: 100%;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
+.georgemichael a, .davidbowie a, .edsheeran a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #d4b714;
+  text-decoration: none;
+}
+
+.georgemichael a:hover, .davidbowie a:hover, .edsheeran a:hover, .foodstand a:hover, .mapframe a:hover {
+  text-decoration: underline;
+}
+
+.moreartists {
+  margin: 70px 0 30px;
+}
+
+.moreartists a {
+  display: block;
+  text-decoration: none;
+  background-color: #2fbe1234;
+  box-shadow: 1px 1px 2px 3px #eca82a;
+  border-radius: 12px;
+  margin: auto;
+  width: 100%;
+  padding: 1%;
+}
+
+.moreartists a:hover {
+  box-shadow: 0 2px #585856;
+  transform: translateY(3px);
+  outline: none;
+  border: none;
+}
+
+.moreartists h2 {
+  margin: 5px;
+  color: #f0a80d;
+}

@@ -1,0 +1,51 @@
+
+
+.eventlineup {
+  padding: 2%;
+  width: 100%;
+  background-color: hsla(0, 1%, 36%, 0.685);
+  border: 1px solid #f3072f;
+}
+
+.eventlineup h1 {
+  text-align: center;
+  margin: 0px 0px 50px;
+  font-size: 2.7em;
+  color: #87878ae7;
+  text-shadow: 1px 1px 5px #000000, 0 0 30px #da990bec, 0 0 15px #764105e5;
+}
+
+.eventlineup h2 {
+  margin: auto;
+  width: 100%;
+  padding: 0 1% 0;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  color: #e47c06;
+}
+
+.eventsrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid #075af3;
+}
+
+.eventsrow>div {
+  flex: 33%;
+  height: 350px;
+  border-radius: 8px;
+  border: 1px solid #1bee25;
+}
+
+.submain .events {
+  background-color: #ffffff;
+  width: 100%;
+  border: 1px solid #f3072f;
+  border-radius: 2px;
+  padding: 0 4% 0;
+  height: 500px;
+}

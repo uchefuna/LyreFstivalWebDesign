@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Uchefuna Ezike">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lyra Festival</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon-16x16ulf.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/nav.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/home-styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/media.css">
+  <link rel="stylesheet" type="text/css" href="styles/keyframes.css">
+</head>
+
+<body>
+  <div id="maincontainer">
+    <header class="header">
+      <nav class="home-nav">
+        <ul>
+          <li><a href="default.html" class="pointhome">
+              <img src="./images/faviconhlh.jpg" alt="Home page" title="Home page"></a>
+          </li>
+
+          <li><a href="contact.html" title="Click here to contact us" class="pointcontact point">CONTACT</a>
+          </li>
+
+          <li><a href="ticket.html" title="Click here to buy your tickets" class="pointticket point">TICKETS</a>
+          </li>
+
+          <li><a href="event.html" title="Click here to find our about the event" class="pointevent point">EVENT</a>
+          </li>
+
+          <li><a href="direction.html" title="Click here to view directions and map"
+              class="pointdirection point">DIRECTION</a>
+          </li>
+
+          <li><a href="musician.html" title="Click here to find out about the artists"
+              class="pointmusician point">MUSICIANS</a>
+          </li>
+
+          <li><a href="moreinfo.html" title="Click here for more info" class="pointinfo point">INFO</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Hero Photo -->
+      <div>
+        <img src="images/first_hero_pic4.png" alt="Hero Photo" class="heropic">
+      </div>
+
+      <hr>
+      <hr>
+
+      <div class="submain">
+
+        <div class="sideleft">
+
+          <div class="buyticket">
+            <h3>Buy tickets here</h3>
+
+            <form action="./phps/process_page.php" target="_blank" method="post">
+              <div class="freeticket"><strong>Free for children below 8yrs</strong></div>
+
+              <input type="radio" id="pounds3" name="pounds3" value="£3">
+              <label for="pounds3">£3 (Children, 8-12) | </label>
+              <label for="qty3"></label>
+              <input type="number" id="qty3" name="qty3" min="1" max="5" placeholder="Qty"><br>
+
+              <input type="radio" id="pounds5" name="pounds5" value="£5">
+              <label for="pounds5">£5 (Teenage) | </label>
+              <label for="qty5"></label>
+              <input type="number" id="qty5" name="qty5" min="1" max="5" placeholder="Qty"><br>
+
+              <input type="radio" id="pounds7" name="pounds7" value="£7">
+              <label for="pounds7">£7 (Adult) | </label>
+              <label for="qty7"></label>
+              <input type="number" id="qty7" name="qty7" min="1" max="5" placeholder="Qty"><br>
+
+              <input type="radio" id="pounds10" name="pounds10" value="£10">
+              <label for="pounds10">£10 (Family of two) | </label>
+              <label for="qty10"></label>
+              <input type="number" id="qty10" name="qty10" min="1" max="5" placeholder="Qty"><br>
+
+              <input type="radio" id="pounds20" name="pounds20" value="£20">
+              <label for="pounds20">£20 (Family of five) | </label>
+              <label for="qty20"></label>
+              <input type="number" id="qty20" name="qty20" min="1" max="5" placeholder="Qty"><br><br>
+
+              <p>Click below to go to the Ticket Menu</p>
+              <a href="ticket.html" title="Click here to continu your purchase">Click here</a>
+            </form>
+          </div>
+
+          <div class="lspix1">
+            <!-- Left side 1 Photo -->
+            <img src="images/sidepic4.jpg" alt="Festival dancers" class="celebratepix">
+          </div>
+
+          <div class="lspix2">
+            <!-- Left side 2 Photo -->
+            <img src="images/sidepic2.jpg" alt="Festival dancers" class="celebratepix">
+          </div>
+
+          <div class="mapframe">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15536.549719581977!2d93.05791193023711!3d13.216687190529054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x308fcb0e34030f8f%3A0xfdc2f556c572f320!2sCraggy%20Island!5e0!3m2!1sen!2suk!4v1678757317433!5m2!1sen!2suk"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>
+              <strong>Learn more on how to get to the Island by clicking </strong><a href="direction.html"
+                title="Click here to find out more about the Island">here</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="centercontent">
+
+          <h1>Performing artists</h1>
+          <div class="georgemichael">
+            <!-- George Michael Photo -->
+            <img src="images/gerogemichaelpic.png" alt="George Michael Photo">
+            <p>George Michael will be performing live. He has played a number of festivals including Sziget Festival,
+              BBC's
+              Biggest Weekend, AO Arena, Sziget Festival, Glastonbury Festival and many other big concerts around the
+              world... <a href="musician.html#gmb" title="Click here to read more about George Michael">Read more</a>
+            </p>
+          </div>
+
+          <div class="davidbowie">
+            <!-- David Bowie Photo-->
+            <img src="images/davidbowiepic.png" alt="David Bowie Photo">
+            <p>David Bowie will be performing live. He has played a number of festivals including Sziget Festival, BBC's
+              Biggest Weekend, AO Arena, Sziget Festival, Glastonbury Festival and many other big concerts around the
+              world... <a href="musician.html#dbb" title="Click here to read more about David Bowie">Read more</a>
+            </p>
+          </div>
+
+          <div class="edsheeran">
+            <!-- Ed Sheeran Photo -->
+            <img src="images/edsheeranpic.png" alt="Ed Sheeran Photo">
+            <p>Ed Sheeran will be performing live. He has played a number of festivals including Sziget Festival, BBC's
+              Biggest Weekend, AO Arena, Sziget Festival, Glastonbury Festival and many other big concerts around the
+              world... <a href="musician.html#esb" title="Click here to read more about Ed Sheeran">Read more</a>
+            </p>
+          </div>
+
+
+          <div class="moreartists">
+            <a href="musician.html" title="Click here to see more artists">
+              <h2>Click here to see more artists</h2>
+            </a>
+          </div>
+        </div>
+
+        <div class="sideright">
+          <div class="foodstand">
+            <img src="images/foodanddrinks.png" alt="food Photo">
+            <p><strong> Check out what is on full menu by clicking </strong><a href="moreinfo.html"
+                title="Click here to find out what on menu">here</a>
+            </p>
+          </div>
+
+          <div class="rspix1">
+            <!-- Right side 1 Photo -->
+            <img src="images/sidepic3.jpg" alt="Festival dancers" class="celebratepix">
+          </div>
+
+          <div class="rspix2">
+            <!-- Left side 2 Photo -->
+            <img src="images/sidepic1.jpg" alt="Festival dancers" class="celebratepix">
+          </div>
+
+          <div class="contactdetails">
+            <h4>Enter your details to sign up for festival newsletter</h4>
+            <form action="/process_page.php" target="_blank" method="post">
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value=""><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value=""><br>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email"><br>
+              <input type="submit" id="detailssm" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <hr>
+    </main>
+
+    <footer>
+      <table class="sociallogo">
+        <tr>
+          <td>
+            <strong>FOLLOW US</strong>
+          </td>
+          <td>
+            <a href="https://www.linkedin.com/in/unezike" target="_blank">
+              <i class="fa fa-linkedin-square" title="LinkedIn logo"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://twitter.com/?lang=en " target="_blank">
+              <i class="fa fa-twitter" title="Twitter logo"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://en-gb.facebook.com/" target="_blank">
+              <i class="fa fa-facebook" title="Facebook logo"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa fa-instagram" title="Instagram logo"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.tiktok.com/en/ " target="_blank">
+              <i class="fa fa-tint" title="TikTok logo"></i>
+            </a>
+          </td>
+          <td>
+            <a href="https://www.google.co.uk/" target="_blank">
+              <i class="fa fa-google-plus-official" title="Google logo"></i>
+            </a>
+          </td>
+        </tr>
+      </table>
+
+      <hr>
+      <div class="backtotop"><span>Click </span><a href="#maincontainer"
+          title="Click here to go back to the top">here</a>
+        <span> to go back to the top</span>
+      </div>
+      <hr class="lastleg">
+
+      <div class="myfooter">
+        <p> Copyright &copy;
+          <em>
+            <script> document.write(new Date().getFullYear())</script>
+          </em>
+          <strong>Uchefuna Ezike</strong> All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

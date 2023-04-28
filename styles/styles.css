@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  background-color: #292a2cee;
+}
+
+#maincontainer {
+  width: 80%;
+  margin: auto;
+}
+
+.pointhome img:hover {
+  animation: shakehomeimg 1.0s infinite;
+}
+
+.sociallogo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  background-color: #a89e9e;
+  border: 2px solid #530b4d;
+}
+
+.sociallogo td {
+  padding-right: 20px;
+}
+
+.sociallogo .fa {
+  font-size: 30px;
+  color: #000;
+}
+
+.myfooter {
+  background-color: #e723b6a4;
+  border: 2px solid #42f116a9;
+  width: 100%;
+  padding: 2px;
+}
+
+.myfooter p {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0.2%;
+}
+
+.backtotop {
+  float: right;
+  background-color: azure;
+  padding: 0.1% 0.5% 0 0;
+  border-radius: 8px;
+  margin: 0 10px 5px 0;
+}
+
+.lastleg {
+  clear: both;
+}

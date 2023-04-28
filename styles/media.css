@@ -1,0 +1,175 @@
+@media screen and (max-width: 1300px) {
+  #maincontainer {
+    width: 92%;
+    margin: auto;
+  }
+
+  nav ul {
+    padding: 2%;
+  }
+
+  nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 2.1vw;
+  }
+
+  .point:hover {
+    padding: 3px;
+  }
+
+  .ticketsrow>div {
+    flex: 25%;
+  }
+
+  .eventsrow>div {
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #maincontainer {
+    width: 96%;
+    margin: auto;
+  }
+
+  .pointhome img {
+    width: 45%;
+  }
+
+  nav ul {
+    padding: 3%;
+  }
+
+  nav a {
+    margin: 0 8px;
+    font-weight: lighter;
+    font-size: 2.5vw;
+  }
+
+  .heropic {
+    height: 250px;
+  }
+
+  .submain {
+    flex-direction: column;
+  }
+
+  .foodstand p, .mapframe p {
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    padding-top: 15px;
+  }
+
+  .centercontent {
+    order: 1;
+  }
+
+  .sideleft {
+    order: 2;
+  }
+
+  .sideleft>div, .sideright>div {
+    height: 100%;
+  }
+
+  .buyticket h3 {
+    font-size: 250%;
+  }
+
+  .buyticket form {
+    font-size: 150%;
+  }
+
+  .buyticket .freeticket {
+    margin-bottom: 15px;
+  }
+
+  .celebratepix  {
+    height: 350px;
+  }
+
+  .lspix1 {
+    order: 3;
+  }
+
+  .lspix2 {
+    order: 4;
+  }
+
+  .mapframe {
+    order: 2;
+  }
+
+  .foodstand {
+    order: 3;
+  }
+
+  .contactdetails {
+    order: 4;
+  }
+
+  .mapframe iframe {
+    height: 500px;
+  }
+
+  .contactdetails #fname, #lname, #email {
+    width: 60%;
+  }
+
+  .otherartists {
+    flex-direction: column;
+  }
+
+  .otherartists>div {
+    flex: 100%;
+    height: 500px;
+    padding-bottom: 15px;
+  }
+
+  .dualipapic {
+    order: 3;
+  }
+
+  .harrystylspic {
+    order: 4;
+  }
+
+  .submain>section {
+    height: auto;
+    padding-bottom: 5%;
+  }
+
+  .foodpicsrow>div {
+    flex: 50%;
+  }
+
+  .ticketsrow>div {
+    flex: 50%;
+  }
+
+  .myfooter p {
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .eventsrow>div {
+    flex: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #maincontainer {
+    width: 98%;
+    margin: auto;
+  }
+
+  .pointhome img {
+    width: 30%;
+  }
+
+  nav a {
+    margin: 0 6px;
+  }
+}

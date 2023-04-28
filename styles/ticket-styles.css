@@ -1,0 +1,209 @@
+.ticketmenu {
+  padding-top: 2%;
+  width: 100%;
+  background-color: hsla(0, 1%, 36%, 0.685);
+  border: 1px solid #3ef307;
+}
+
+.ticketmenu h1 {
+  text-align: center;
+  margin: 0px 0px 30px;
+  font-size: 2.7em;
+  color: #87878ae7;
+  text-shadow: 1px 1px 5px #000000, 0 0 30px #da990bec, 0 0 15px #764105e5;
+}
+
+.submain .accbookings {
+  background-color: #ffffff;
+  width: 100%;
+  border: 1px solid #f3072f;
+  border-radius: 2px;
+  padding: 0 4% 0;
+  height: 500px;
+}
+
+.priceheader, .pricebtn {
+  margin: auto;
+  width: 100%;
+  padding: 0 1% 0;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.priceheader {
+  text-shadow: 2px 2px 4px #000000;
+  color: #e47c06;
+}
+
+.ticketsrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+}
+
+.ticketsrow>div {
+  flex: 20%;
+  padding: 0 0.2% 0.6%;
+  border-radius: 8px;
+  border: 1px solid #f39507;
+}
+
+.ticketsrow>div:hover {
+  border: 1px solid #c840fdea;
+  transform: translateY(3px);
+  cursor: pointer;
+}
+
+.ticketsrow>div label:hover {
+  cursor: pointer;
+  outline: none;
+}
+
+.ticketsrow>label a {
+  text-decoration: none;
+  color: #000;
+}
+
+.ticketsrow>div .txtline1, .txtline2, .txtline3 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.ticketsrow>div .txtline1 {
+  font-size: 1.2em;
+  color: #f5f4f483;
+}
+
+.ticketsrow>div .txtline2 b {
+  font-size: 1.2em;
+  margin-right: 90px;
+  color: antiquewhite;
+}
+
+.ticketsrow>div .txtline3, .pricetag21>ol, p {
+  font-size: 1.0em;
+  color: rgb(252, 252, 252);
+  text-align: center;
+}
+
+.pricetag21>ol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 2.0;
+  font-size: 18px;
+}
+
+.pricebtn {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.hidebtn1, .hidebtn2, .hidebtn3 {
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(61, 238, 85, 0.568);
+  margin: auto;
+  width: 40%;
+  border-radius: 8px;
+  padding: 1%;
+  font-size: 1.2em;
+  box-shadow: 1px 1px 2px 2px #f4f7f4;
+  outline: none;
+  cursor: pointer;
+}
+
+.hidebtn1:hover, .hidebtn2:hover, .hidebtn3:hover {
+  box-shadow: 0 2px #eca82a;
+  transform: translateY(3px);
+  outline: none;
+  border: none;
+}
+
+.pricetag22 p {
+  font-size: 3.0em;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  color: #eca82a;
+  outline: none;
+}
+
+.pricetag21, .pricetag22 {
+  display: none;
+}
+
+#purchasebtn1, #purchasebtn2, #purchasebtn3, .hidebtn2, .hidebtn3, .phidetag2, .hidetag3 {
+  display: none;
+}
+
+#purchasebtn1:checked~* .hidebtn2 {
+  display: inline-block;
+}
+
+#purchasebtn2:checked~* .hidebtn2 {
+  display: none;
+}
+
+#purchasebtn2:checked~* .hidebtn3 {
+  display: inline-block;
+}
+
+#purchasebtn1:checked~* .hidetag1 {
+  display: none;
+}
+
+#purchasebtn1:checked~* .pricetag21 {
+  display: block;
+  padding: 1%;
+  border-radius: 8px;
+  border: 1px solid #f39507;
+}
+
+#purchasebtn2:checked~* .hidetag2 {
+  display: none;
+}
+
+#purchasebtn2:checked~* .pricetag22 {
+  display: block;
+  padding: 0 0.2% 0.6%;
+  border-radius: 8px;
+  border: 1px solid #071ff3;
+}
+
+#purchasebtn1:checked~* .phidetag2 {
+  display: block;
+}
+
+#purchasebtn2:checked~* .phidetag2 {
+  display: none;
+}
+
+#purchasebtn2:checked~* .hidetag3 {
+  display: block;
+}
+
+#purchasebtn1:checked~.hidebtn1 {
+  background-color: #ccc;
+}
+
+#purchasebtn2:checked~.hidebtn1 {
+  background-color: #a3e013;
+}
+
+#purchasebtn3:checked~.hidebtn1 {
+  background-color: #e01313;
+}
+
+.expandable {
+  visibility: collapse;
+  background: #ddd;
+}
+
+.accbookings h2 {
+  text-align: center;
+  margin: 30px 0px 50px;
+  font-size: 2.8em;
+  color: #fcfcffe7;
+  text-shadow: 1px 1px 5px #000000, 0 0 30px #da990bec, 0 0 15px #764105e5;
+}

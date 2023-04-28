@@ -1,0 +1,66 @@
+.header {
+    background-color: #600c9194;
+    text-decoration: none;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 1%;
+    margin: 0;
+}
+
+nav a {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #f2f4fc;
+    font-size: 1.6vw;
+    margin-right: 45px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
+.pointhome img {
+    width: 35%;
+}
+
+.point:hover {
+    border: 1px solid hwb(177 10% 13%);
+    padding: 5px;
+    color: hsl(98, 80%, 40%);
+    transition: 300ms;
+}
+
+.contact-nav .pointcontact {
+    text-decoration: overline underline #ffffffe1 1px;
+    color: #eb9c09;
+}
+
+.direction-nav .pointdirection {
+    text-decoration: overline underline #ffffffe1 1px;
+    color: #eb9c09;
+}
+
+.event-nav .pointevent {
+    text-decoration: overline underline #ffffffe1 1px;
+    color: #eb9c09;
+}
+
+.info-nav .pointinfo {
+    text-decoration: overline underline #ffffffe1 1px;
+    color: hsl(69, 91%, 54%);
+}
+
+.musician-nav .pointmusician {
+    text-decoration: overline underline #ffffffe1 1px;
+    color: rgb(235, 156, 9);
+}
+
+.ticket-nav .pointticket {
+    text-decoration: overline underline #ffffffe1 1px;
+    color: rgb(235, 156, 9);
+}
